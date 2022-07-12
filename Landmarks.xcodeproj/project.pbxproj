@@ -39,7 +39,6 @@
 		4A9FBAE3287DE66400672B4A = {
 			isa = PBXGroup;
 			children = (
-				4A9FBAFF287DF3DD00672B4A /* MapView.swift */,
 				4A9FBAEE287DE66400672B4A /* Landmarks */,
 				4A9FBAED287DE66400672B4A /* Products */,
 			);
@@ -56,6 +55,7 @@
 		4A9FBAEE287DE66400672B4A /* Landmarks */ = {
 			isa = PBXGroup;
 			children = (
+				4A9FBAFF287DF3DD00672B4A /* MapView.swift */,
 				4A9FBAEF287DE66400672B4A /* LandmarksApp.swift */,
 				4A9FBAF1287DE66400672B4A /* ContentView.swift */,
 				4A9FBAF3287DE66700672B4A /* Assets.xcassets */,
