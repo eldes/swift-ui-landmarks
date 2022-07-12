@@ -15,6 +15,7 @@ struct Landmark: Hashable, Codable, Identifiable {
     var park: String
     var state: String
     var description: String
+    var isFavorite: Bool
     
     private var imageName: String
     var image: Image {
@@ -31,5 +32,11 @@ struct Landmark: Hashable, Codable, Identifiable {
     struct Coordinates: Hashable, Codable {
         var latitude: Double
         var longitude: Double
+    }
+}
+
+extension Landmark: Equatable {
+    static func == (lhs: Landmark, rhs: Landmark) -> Bool {
+        return lhs.id == rhs.id
     }
 }
